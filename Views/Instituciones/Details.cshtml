@@ -1,0 +1,43 @@
+@model Institucion
+
+@{
+    ViewData["Title"] = "Detalles de Institución";
+}
+
+<h1>@Model.Nombre</h1>
+
+<div>
+    <h4>Institución</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Nombre)</dd>
+        <dt class="col-sm-2">Ubicación</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Ubicacion)</dd>
+    </dl>
+</div>
+
+<h3>Investigadores</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var inv in Model.Investigadores)
+        {
+            <tr>
+                <td>@inv.Nombre</td>
+                <td>@inv.Apellido</td>
+                <td>@inv.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</div>

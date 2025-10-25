@@ -1,0 +1,140 @@
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.csproj.AssemblyReference.cache
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.GeneratedMSBuildEditorConfig.editorconfig
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.AssemblyInfoInputs.cache
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.AssemblyInfo.cs
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.csproj.CoreCompileInputs.cache
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.MvcApplicationPartsAssemblyInfo.cache
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.RazorAssemblyInfo.cache
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.RazorAssemblyInfo.cs
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\appsettings.Development.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\appsettings.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Actividad 4.staticwebassets.runtime.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Actividad 4.staticwebassets.endpoints.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Actividad 4.exe
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Actividad 4.deps.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Actividad 4.runtimeconfig.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Actividad 4.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Actividad 4.pdb
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Humanizer.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\MySqlConnector.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.CodeDom.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.IO.Pipelines.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\System.Text.Json.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\scopedcss\bundle\Actividad 4.styles.css
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\scopedcss\projectbundle\Actividad 4.bundle.scp.css
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\staticwebassets.build.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\staticwebassets.development.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\swae.build.ex.cache
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Activida.B6EBCB33.Up2Date
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\refint\Actividad 4.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.pdb
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\Actividad 4.genruntimeconfig.cache
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\ref\Actividad 4.dll
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\package-lock.json
+E:\deberes\2_DE_DAW\DWES\Actividad 4\Actividad 4\bin\Debug\net8.0\package.json

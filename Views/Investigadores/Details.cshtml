@@ -1,0 +1,105 @@
+@model Investigador
+
+@{
+    ViewData["Title"] = "Detalles de Investigador";
+}
+
+<div class="min-h-screen bg-gray-50 py-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Header -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+            <div class="bg-gradient-to-r from-green-500 to-blue-600 px-6 py-4">
+                <h1 class="text-3xl font-bold text-white flex items-center">
+                    <i class="fas fa-user mr-3"></i>
+                    @Model.Nombre @Model.Apellido
+                </h1>
+            </div>
+            <div class="p-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+                            <i class="fas fa-id-card mr-2 text-green-500"></i>
+                            Información Personal
+                        </h4>
+                        <dl class="space-y-3">
+                            <div class="flex justify-between">
+                                <dt class="font-medium text-gray-600">Nombre:</dt>
+                                <dd class="text-gray-900">@Html.DisplayFor(model => model.Nombre)</dd>
+                            </div>
+                            <div class="flex justify-between">
+                                <dt class="font-medium text-gray-600">Apellido:</dt>
+                                <dd class="text-gray-900">@Html.DisplayFor(model => model.Apellido)</dd>
+                            </div>
+                            <div class="flex justify-between">
+                                <dt class="font-medium text-gray-600">Email:</dt>
+                                <dd class="text-gray-900">
+                                    <a href="mailto:@Model.Email" class="text-blue-600 hover:underline">@Html.DisplayFor(model => model.Email)</a>
+                                </dd>
+                            </div>
+                            <div class="flex justify-between">
+                                <dt class="font-medium text-gray-600">Institución:</dt>
+                                <dd class="text-gray-900">@(Model.Institucion?.Nombre ?? "Sin institución")</dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <div class="text-center">
+                            <div class="w-32 h-32 bg-gradient-to-br from-green-400 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-user text-white text-4xl"></i>
+                            </div>
+                            <p class="text-sm text-gray-600">Investigador</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyectos -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
+            <div class="bg-gradient-to-r from-purple-500 to-pink-600 px-6 py-4">
+                <h3 class="text-2xl font-bold text-white flex items-center">
+                    <i class="fas fa-project-diagram mr-3"></i>
+                    Proyectos (@Model.InvestigadorProyectos.Count)
+                </h3>
+            </div>
+            <div class="p-6">
+                @if (Model.InvestigadorProyectos.Any())
+                {
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        @foreach (var ip in Model.InvestigadorProyectos)
+                        {
+                            <div class="bg-gray-50 p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+                                <h5 class="font-semibold text-gray-800 mb-2">@ip.Proyecto.Titulo</h5>
+                                <p class="text-sm text-gray-600 mb-2">@(string.IsNullOrEmpty(ip.Proyecto.Descripcion) ? "Sin descripción" : ip.Proyecto.Descripcion)</p>
+                                <div class="flex items-center text-sm text-gray-600 mb-2">
+                                    <i class="fas fa-calendar mr-1"></i>
+                                    <span>Inicio: @ip.Proyecto.FechaInicio.ToShortDateString()</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600 mb-2">
+                                    <i class="fas fa-euro-sign mr-1"></i>
+                                    <span>Presupuesto: @ip.Proyecto.Presupuesto.ToString("C")</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-600">
+                                    <i class="fas fa-university mr-2 text-purple-500"></i>
+                                    <span>@(ip.Investigador.Institucion?.Nombre ?? "Sin institución")</span>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="text-gray-500 text-center py-8">Este investigador no está asignado a ningún proyecto.</p>
+                }
+            </div>
+        </div>
+
+        <!-- Botón Volver -->
+        <div class="text-center">
+            <a asp-action="Index" class="inline-flex items-center px-6 py-3 bg-gray-600 text-white font-medium rounded-lg hover:bg-gray-700 transition-colors">
+                <i class="fas fa-arrow-left mr-2"></i>
+                Volver a la Lista
+            </a>
+        </div>
+    </div>
+</div>

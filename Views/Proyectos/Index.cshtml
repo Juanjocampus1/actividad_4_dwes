@@ -1,0 +1,118 @@
+@model IEnumerable<Proyecto>
+
+@{
+    ViewData["Title"] = "Proyectos";
+}
+
+<div class="py-12 bg-gray-50 dark:bg-gray-900 min-h-screen gradient-bg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Header -->
+        <div class="mb-8" data-aos="fade-down">
+            <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 flex items-center">
+                <i class="fas fa-project-diagram mr-3 text-indigo-600 dark:text-indigo-400"></i>
+                Proyectos
+            </h1>
+            <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Lista de proyectos de investigación con filtros de búsqueda.</p>
+        </div>
+
+        <!-- Formulario de Búsqueda -->
+        <div class="glass shadow-2xl rounded-3xl p-6 mb-8" data-aos="fade-up">
+            <form asp-action="Index" method="get" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div>
+                    <label for="searchString" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        <i class="fas fa-search mr-1"></i> Buscar (Título, Descripción)
+                    </label>
+                    <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:text-gray-100 transition-all" placeholder="Ingrese términos de búsqueda..." />
+                </div>
+                <div>
+                    <label for="fechaInicioDesde" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        <i class="fas fa-calendar mr-1"></i> Fecha Inicio Desde
+                    </label>
+                    <input type="date" name="fechaInicioDesde" value="@ViewData["FechaInicioDesde"]" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:text-gray-100 transition-all" />
+                </div>
+                <div>
+                    <label for="fechaInicioHasta" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        <i class="fas fa-calendar mr-1"></i> Fecha Inicio Hasta
+                    </label>
+                    <input type="date" name="fechaInicioHasta" value="@ViewData["FechaInicioHasta"]" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:text-gray-100 transition-all" />
+                </div>
+                <div class="flex items-end">
+                    <button type="submit" class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-500 dark:to-purple-500 text-white px-6 py-3 rounded-2xl hover:from-indigo-700 hover:to-purple-700 dark:hover:from-indigo-600 dark:hover:to-purple-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all flex items-center justify-center font-medium shadow-lg hover:shadow-xl ripple">
+                        <i class="fas fa-filter mr-2"></i> Buscar
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Grid de Proyectos -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            @foreach (var (item, index) in Model.Select((item, index) => (item, index)))
+            {
+                <div class="glass rounded-3xl shadow-2xl overflow-hidden hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-105" data-aos="zoom-in" data-aos-delay="@(index * 100)">
+                    <div class="bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-600 dark:to-purple-700 px-6 py-4">
+                        <h3 class="text-xl font-bold text-white flex items-center">
+                            <i class="fas fa-project-diagram mr-2"></i>
+                            @Html.DisplayFor(modelItem => item.Titulo)
+                        </h3>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">@(string.IsNullOrEmpty(item.Descripcion) ? "Sin descripción disponible" : item.Descripcion)</p>
+                        
+                        <div class="space-y-3 mb-4">
+                            <div class="flex items-center text-sm text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-calendar mr-2 text-blue-500"></i>
+                                <span>Inicio: @item.FechaInicio.ToShortDateString()</span>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-calendar-check mr-2 text-green-500"></i>
+                                <span>Fin: @(item.FechaFin?.ToShortDateString() ?? "En curso")</span>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-euro-sign mr-2 text-yellow-500"></i>
+                                <span class="font-semibold text-green-600 dark:text-green-400">@item.Presupuesto.ToString("C")</span>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex items-center space-x-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-users mr-1 text-blue-500"></i>
+                                    <span class="text-sm font-medium">@item.InvestigadorProyectos.Count</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-book mr-1 text-purple-500"></i>
+                                    <span class="text-sm font-medium">@item.Publicaciones.Count</span>
+                                </div>
+                            </div>
+                            @if (!item.FechaFin.HasValue || item.FechaFin > DateTime.Now)
+                            {
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300 animate-pulse">
+                                    <i class="fas fa-circle mr-1"></i> Activo
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300">
+                                    <i class="fas fa-check-circle mr-1"></i> Finalizado
+                                </span>
+                            }
+                        </div>
+
+                        <a asp-action="Details" asp-route-id="@item.Id" class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-500 dark:to-purple-500 text-white px-4 py-3 rounded-2xl hover:from-indigo-700 hover:to-purple-700 dark:hover:from-indigo-600 dark:hover:to-purple-600 transition-all flex items-center justify-center font-medium shadow-lg hover:shadow-xl ripple">
+                            <i class="fas fa-eye mr-2"></i> Ver Detalles
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @if (!Model.Any())
+        {
+            <div class="text-center py-12" data-aos="fade-in">
+                <i class="fas fa-search text-gray-400 dark:text-gray-600 text-6xl mb-4 animate-float"></i>
+                <h3 class="text-xl font-medium text-gray-900 dark:text-gray-100 mb-2">No se encontraron proyectos</h3>
+                <p class="text-gray-600 dark:text-gray-400">Intenta ajustar los filtros de búsqueda</p>
+            </div>
+        }
+    </div>
+</div>

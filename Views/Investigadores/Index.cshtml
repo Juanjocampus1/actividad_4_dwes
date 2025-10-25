@@ -1,0 +1,91 @@
+@model IEnumerable<Investigador>
+
+@{
+    ViewData["Title"] = "Investigadores";
+}
+
+<div class="py-12 bg-gray-50 dark:bg-gray-900 min-h-screen">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Header -->
+        <div class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100 flex items-center">
+                <i class="fas fa-users mr-3 text-green-600 dark:text-green-400"></i>
+                Investigadores
+            </h1>
+            <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Lista de investigadores con opciones de filtrado.</p>
+        </div>
+
+        <!-- Formulario de Búsqueda -->
+        <div class="bg-white dark:bg-gray-800 shadow-2xl rounded-3xl p-6 mb-8">
+            <form asp-action="Index" method="get" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <label for="searchString" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        <i class="fas fa-search mr-1"></i> Buscar (Nombre, Apellido, Email)
+                    </label>
+                    <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:text-gray-100 transition-all" placeholder="Ingrese nombre, apellido o email..." />
+                </div>
+                <div>
+                    <label for="institucionId" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        <i class="fas fa-university mr-1"></i> Institución
+                    </label>
+                    <select name="institucionId" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 dark:bg-gray-700 dark:text-gray-100 transition-all">
+                        <option value="">Todas las instituciones</option>
+                        @foreach (var inst in ViewBag.Instituciones as IEnumerable<Institucion>)
+                        {
+                            <option value="@inst.Id" selected="@(ViewData["InstitucionId"]?.ToString() == inst.Id.ToString())">@inst.Nombre</option>
+                        }
+                    </select>
+                </div>
+                <div class="flex items-end">
+                    <button type="submit" class="w-full bg-gradient-to-r from-green-600 to-teal-600 dark:from-green-500 dark:to-teal-500 text-white px-6 py-3 rounded-2xl hover:from-green-700 hover:to-teal-700 dark:hover:from-green-600 dark:hover:to-teal-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition-all flex items-center justify-center font-medium shadow-lg hover:shadow-xl">
+                        <i class="fas fa-filter mr-2"></i> Buscar
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Grid de Investigadores -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            @foreach (var (item, index) in Model.Select((item, index) => (item, index)))
+            {
+                <div class="glass rounded-3xl shadow-2xl overflow-hidden hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-3 hover:scale-105" data-aos="slide-up" data-aos-delay="@(index * 120)">
+                    <div class="bg-gradient-to-r from-green-500 to-teal-600 dark:from-green-600 dark:to-teal-700 px-6 py-4">
+                        <h3 class="text-xl font-bold text-white flex items-center">
+                            <i class="fas fa-user mr-2"></i>
+                            @Html.DisplayFor(modelItem => item.Nombre) @Html.DisplayFor(modelItem => item.Apellido)
+                        </h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-3 mb-4">
+                            <div class="flex items-center text-sm text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-envelope mr-2 text-blue-500 animate-bounce"></i>
+                                <a href="mailto:@item.Email" class="text-blue-600 dark:text-blue-400 hover:underline">@Html.DisplayFor(modelItem => item.Email)</a>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-university mr-2 text-purple-500 animate-pulse"></i>
+                                <span>@(item.Institucion?.Nombre ?? "Sin institución")</span>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-project-diagram mr-2 text-orange-500 animate-spin"></i>
+                                <span>@item.InvestigadorProyectos.Count proyectos</span>
+                            </div>
+                        </div>
+
+                        <a asp-action="Details" asp-route-id="@item.Id" class="w-full bg-gradient-to-r from-green-600 to-teal-600 dark:from-green-500 dark:to-teal-500 text-white px-4 py-3 rounded-2xl hover:from-green-700 hover:to-teal-700 dark:hover:from-green-600 dark:hover:to-teal-600 transition-all flex items-center justify-center font-medium shadow-lg hover:shadow-xl ripple" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ver detalles del investigador">
+                            <i class="fas fa-eye mr-2"></i> Ver Detalles
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @if (!Model.Any())
+        {
+            <div class="text-center py-12">
+                <i class="fas fa-search text-gray-400 dark:text-gray-600 text-6xl mb-4"></i>
+                <h3 class="text-xl font-medium text-gray-900 dark:text-gray-100 mb-2">No se encontraron investigadores</h3>
+                <p class="text-gray-600 dark:text-gray-400">Intenta ajustar los filtros de búsqueda</p>
+            </div>
+        }
+    </div>
+</div>
